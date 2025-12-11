@@ -65,17 +65,25 @@ class QLearningAgent:
 
     def _discretize_state(self, obs: np.ndarray) -> tuple:
         """
-        Discretize continuous state for tabular Q-learning.
+        Discretize state for tabular Q-learning.
 
-        In production with MILES, this would be replaced with:
-        - Deep neural network feature extraction
-        - Molecular fingerprints or graph embeddings
-        - Pre-trained chemical representations
+        Supports both:
+        - Vector observations from the original environment
+        - Scalar / dummy observations (bandit-style) from the enhanced env
         """
-        compound_idx = int(obs[0])
-        promiscuity_bin = int(obs[1] // 20)  # Bins of 20 hits
-        cytotox_bin = int(obs[2] * 10)  # 0.1 probability bins
-        is_active = int(obs[4])
+        # Convert to 1D array for flexible handling
+        obs_arr = np.array(obs).reshape(-1)
+
+        # Bandit-style / dummy observation (e.g., env returns just 0)
+        # Collapse everything into a single bucketed state.
+        if obs_arr.size < 5:
+            return (0, 0, 0, 0)
+
+        # Original environment: use feature-based discretization
+        compound_idx = int(obs_arr[0])
+        promiscuity_bin = int(obs_arr[1] // 20)   # Bins of 20 hits
+        cytotox_bin = int(obs_arr[2] * 10)        # 0.1 probability bins
+        is_active = int(obs_arr[4])
 
         return (compound_idx, promiscuity_bin, cytotox_bin, is_active)
 
