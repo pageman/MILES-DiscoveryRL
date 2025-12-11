@@ -6,6 +6,37 @@ This folder contains all files from the Drug RL enhancement session, organized f
 
 ---
 
+## ⚖️ License Notice (Important!)
+
+**This project uses dual licensing:**
+
+### Files Under Apache 2.0 License
+Files that reference or are inspired by the [MILES framework](https://github.com/radixark/miles):
+- `original/miles_concepts_drug_rl.py` - MILES MoE concepts demonstration
+
+**License**: Apache License 2.0 (see [LICENSE.apache](LICENSE.apache))
+**Attribution**: Portions derived from MILES framework concepts
+
+### Files Under MIT License
+All new contributions specific to drug discovery RL:
+- Enhanced Colab notebook (`core/Drug_Optimization_RL_Enhanced.ipynb`)
+- Analysis toolkit (`core/drug_rl_enhanced_analysis.py`)
+- Notebook generator (`core/drug_rl_enhanced_notebook.py`)
+- All documentation files (`docs/`)
+- Original drug RL implementation (`original/drug_rl_*.py`, `original/drug_target_analysis.py`)
+- Example notebooks (`examples/`)
+
+**License**: MIT License (see [LICENSE.mit](LICENSE.mit))
+**Copyright**: (c) 2024 Paul Pajo and Contributors
+
+### Summary
+- **Apache 2.0** applies to MILES-derived concepts → See [LICENSE.apache](LICENSE.apache) and [NOTICE](NOTICE)
+- **MIT** applies to all drug discovery RL contributions → See [LICENSE.mit](LICENSE.mit)
+- Both licenses are permissive and allow commercial use
+- See [NOTICE](NOTICE) file for full attribution details
+
+---
+
 ## 📁 Folder Structure
 
 ```
@@ -307,6 +338,50 @@ train_agent(env, agent, n_episodes=100)  # Was 200
 - ✅ Hyperparameters documented
 - ✅ Dataset sources linked
 - ✅ Version numbers specified
+
+---
+
+## 📄 Citation & Licensing
+
+### How to Cite This Work
+
+```bibtex
+@software{pajo2024miles_discoveryrl,
+  author = {Pajo, Paul and Contributors},
+  title = {MILES-DiscoveryRL: Drug Optimization with Reinforcement Learning},
+  year = {2024},
+  url = {https://github.com/pageman/MILES-DiscoveryRL},
+  note = {Dual-licensed: Apache 2.0 (MILES concepts) and MIT (new contributions)}
+}
+```
+
+### Attribution Requirements
+
+When using this software, please:
+
+1. **For MILES-derived concepts** (Apache 2.0):
+   - Include the Apache 2.0 license text ([LICENSE.apache](LICENSE.apache))
+   - Retain copyright and attribution notices
+   - Include the [NOTICE](NOTICE) file in distributions
+   - Link to original MILES framework: https://github.com/radixark/miles
+
+2. **For MIT-licensed contributions**:
+   - Include the MIT license text ([LICENSE.mit](LICENSE.mit))
+   - Retain copyright notice: (c) 2024 Paul Pajo and Contributors
+
+3. **For publications**:
+   - Cite this repository using the BibTeX above
+   - Acknowledge the MILES framework for MoE concepts
+   - Reference the EvE Bio and Discovery2 datasets
+
+### Third-Party Dependencies
+
+This project uses:
+- **EvE Bio** drug-target-activity dataset (HuggingFace, gated)
+- **Discovery2** cytotoxicity models (HuggingFace)
+- **MILES** framework concepts (Apache 2.0)
+- **Gymnasium** (MIT), **Optuna** (MIT), **RDKit** (BSD)
+- See [NOTICE](NOTICE) file for complete list
 
 ---
 
