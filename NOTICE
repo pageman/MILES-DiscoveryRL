@@ -1,54 +1,8 @@
 MILES-DiscoveryRL
 Copyright 2024 Paul Pajo and Contributors
 
-This project contains code derived from and inspired by:
-
-MILES Framework
-Copyright (c) 2024 MILES Framework Contributors
-Licensed under the Apache License, Version 2.0
+This project contains code derived from and inspired by the MILES framework:
 https://github.com/radixark/miles
 
-================================================================================
-
-ATTRIBUTION NOTICE:
-
-This project builds upon concepts from the MILES (Mixture of Experts) framework
-for distributed training. The MILES framework is licensed under Apache 2.0.
-
-Portions of this software that reference or are inspired by MILES concepts
-(particularly in original/miles_concepts_drug_rl.py) are subject to the
-Apache 2.0 license. See LICENSE.apache for full terms.
-
-All new contributions and enhancements specific to drug discovery RL
-(including the enhanced Colab notebook, analysis toolkit, and documentation)
-are licensed under the MIT License. See LICENSE.mit for full terms.
-
-================================================================================
-
-DEPENDENCIES AND THIRD-PARTY COMPONENTS:
-
-This project uses the following open-source libraries and datasets:
-
-- EvE Bio drug-target-activity dataset (HuggingFace)
-  https://huggingface.co/datasets/eve-bio/drug-target-activity
-
-- Discovery2 cytotoxicity models and promiscuity scores (HuggingFace)
-  https://huggingface.co/pageman (Discovery2 repositories)
-
-- Gymnasium (MIT License)
-  https://gymnasium.farama.org/
-
-- Optuna (MIT License)
-  https://optuna.org/
-
-- RDKit (BSD License)
-  https://www.rdkit.org/
-
-- NumPy, Pandas, Matplotlib, Seaborn, scikit-learn (BSD Licenses)
-
-See individual packages for their respective licenses.
-
-================================================================================
-
-For questions about licensing, please open an issue at:
-https://github.com/pageman/MILES-DiscoveryRL/issues
+Portions of this software use concepts from the MILES framework for
+Mixture of Experts (MoE) architectures and distributed training.

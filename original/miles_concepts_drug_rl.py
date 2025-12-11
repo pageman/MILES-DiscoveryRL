@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # Copyright 2024 Paul Pajo and Contributors
 #
-# Portions of this file are derived from concepts in the MILES framework:
-# Copyright (c) 2024 MILES Framework Contributors
-# https://github.com/radixark/miles
-#
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
