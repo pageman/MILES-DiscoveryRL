@@ -386,7 +386,7 @@ Before publishing/sharing:
 - [ ] Results saved to Google Drive
 - [ ] README.md updated with your info
 - [ ] GitHub repository created (optional)
-- [ ] License added (MIT/Apache 2.0)
+- [ ] License added (Apache 2.0 - already included)
 - [ ] Contributors acknowledged
 - [ ] DOI obtained (Zenodo, optional)
 

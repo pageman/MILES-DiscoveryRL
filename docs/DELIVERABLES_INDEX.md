@@ -510,14 +510,16 @@ This package serves as:
 
 ## 🔒 License
 
-**Recommended**: MIT or Apache 2.0 (permissive open source)
+**Apache License 2.0**
+
+This project is licensed under Apache 2.0, identical to the MILES framework from which it is derived.
 
 ```
-MIT License
+Copyright 2024 Paul Pajo and Contributors
 
-Copyright (c) 2024 [Your Name]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy...
+Licensed under the Apache License, Version 2.0
+See LICENSE file for full text
+See NOTICE file for attribution details
 ```
 
 ---

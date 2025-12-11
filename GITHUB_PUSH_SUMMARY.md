@@ -52,7 +52,7 @@ Your complete Drug RL enhancement package is now live on GitHub and ready for th
 **Project Files (4)**:
 1. `README.md` - Master guide
 2. `FILE_MANIFEST.txt` - Complete inventory
-3. `LICENSE` - MIT License
+3. `LICENSE` - Apache License 2.0
 4. `.gitignore` - Python/Jupyter best practices
 
 ---
@@ -83,7 +83,7 @@ d32d05a - Initial commit (remote)
 ✅ **Validated results** (+164% vs random, p<0.001, Cohen's d=2.4)
 ✅ **Production-ready** platform ($31K-95K commercial value)
 ✅ **150+ pages** of comprehensive documentation
-✅ **MIT License** (fully open source)
+✅ **Apache 2.0 License** (fully open source, same as MILES framework)
 ✅ **Ready to clone** and use immediately
 
 ### Technologies
@@ -227,7 +227,8 @@ git push origin feature/my-improvement
 MILES-DiscoveryRL/
 ├── .git/                    (Git metadata)
 ├── .gitignore              (Ignore rules)
-├── LICENSE                 (MIT License)
+├── LICENSE                 (Apache License 2.0)
+├── NOTICE                  (Attribution file)
 ├── README.md               (Master guide)
 ├── FILE_MANIFEST.txt       (File listing)
 ├── GITHUB_PUSH_SUMMARY.md  (This file)
@@ -376,7 +377,7 @@ Try it in Colab: https://github.com/pageman/MILES-DiscoveryRL
 ### README Badge Ideas
 ```markdown
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](core/Drug_Optimization_RL_Enhanced.ipynb)
 [![DOI](https://zenodo.org/badge/DOI/YOUR-DOI.svg)](https://doi.org/YOUR-DOI)
 ```
@@ -408,7 +409,7 @@ Try it in Colab: https://github.com/pageman/MILES-DiscoveryRL
 ## 🔒 Security & Maintenance
 
 ### Security Best Practices
-✅ MIT License clearly stated
+✅ Apache 2.0 License clearly stated
 ✅ No credentials in repository
 ✅ .gitignore excludes sensitive files
 ✅ Dependencies pinned in requirements
@@ -443,7 +444,7 @@ Your **MILES-DiscoveryRL** repository is now live and ready to make an impact!
 ---
 
 **Repository**: https://github.com/pageman/MILES-DiscoveryRL
-**License**: MIT (fully open source)
+**License**: Apache 2.0 (fully open source, identical to MILES framework)
 **Status**: ✅ Live and ready to use
 
 **Ready to revolutionize drug discovery with AI!** 🧬💊🤖
